@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  color: #c1273a;
+  font-size: 4em;
+  margin: auto 0;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: black;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 1.1rem;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin:30px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3F6844;
+  border-radius: 14px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  display:block;
+  color: #FAF1CF;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #5DAA68;
+  color: white;
+}
+
+nav li a:active {
+  color: black;
+}
+
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+hr {
+  border: 1px solid #609F6A;
+}
