@@ -4,6 +4,7 @@
   padding: 0; */
 }
 
+/*------------Main Styling-----------*/
 body {
   font-family: "Source Sans Pro", Verdana, sans-serif;
   padding: 2rem;
@@ -12,8 +13,8 @@ body {
 h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
-  color: #c1273a;
-  font-size: 4em;
+  color: #c0263a;
+  font-size: 5em;
   margin: auto 0;
 }
 
@@ -29,38 +30,67 @@ p {
   font-size: 1.1rem;
 }
 
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-  margin:30px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #3F6844;
-  border-radius: 14px;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  display:block;
-  color: #FAF1CF;
-  text-align: center;
-  padding: 20px;
+a {
   text-decoration: none;
+  color: #c0263a;
+  font-weight: bolder;
 }
 
-nav li a:hover {
-  background-color: #5DAA68;
-  color: white;
+a:hover {
+  text-decoration: none;
+  color: #f46e85;
+  transition-duration: 0.5s;
 }
 
-nav li a:active {
+a:focus {
   color: black;
+}
+
+/*---------End of Main Styling--------*/
+
+.logo {
+  width: 300px;
+}
+
+.nav-main {
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.nav-main .menu {
+  display: none;
+}
+
+.nav-main .logo {
+  order: 0;
+ /* padding: 1rem;*/
+}
+
+.nav-links {
+  order: 1;
+}
+
+.nav-links a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #c0263a;
+  text-align: center;
+}
+
+.nav-links a:hover {
+  margin-top: 20px;
+  background-color: #57C9FB;
+
 }
 
 
