@@ -21,8 +21,15 @@ h1 {
 h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: lighter;
-  color: black;
+  color:  #c0263a;
   font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.3rem;
 }
 
 p {
@@ -137,6 +144,21 @@ img {
 }
 
 /*---------End of Interactive Elements-------------*/
+
+.content p,
+.content h2,
+.content h3,
+.content figure {
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.sizing {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 10%; */
+}
+
 
 code {
   background-color: #EEE;
