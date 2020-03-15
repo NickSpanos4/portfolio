@@ -6,9 +6,8 @@
     <meta charset="utf-8">
     <title>Portfolio - Style Guide</title>
     <link href="https://fonts.googleapis.com/css?family=Hind:300|Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/hover.css">
     <link href="css/main.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
   </head>
 
   <body>
@@ -18,20 +17,18 @@
     </header>
 
     <nav class="nav-main">
-      <a href="styleguide.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+      <!-- <a href="styleguide.html"><img class="logo" src="img/logo.svg" alt="logo"></a> -->
       <div class="nav-links" id="navMain">
-        <a href="about.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="listing-page.html">Join</a>
-        <a href="contact.html">Contact</a>
-        <!-- <a href="citations.html">Citations</a> -->
+        <a href="#interactive-elements">Interactive Elements</a>
+        <a href="#text-elements">Text Elements</a>
+        <a href="#combined-elements">Combined Elements</a>
       </div>
     </nav>
 
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
+    <section id="interactive-elements">
       <h4>Interactive Elements</h4>
 
 
@@ -50,11 +47,9 @@
 
         <h4>Navigation Link</h4>
 
-        <nav>
-          <ul>
-            <li><a href="#interactive_elements">Interactive Elements</a></li>
-          </ul>
-        </nav>
+        <div class="nav-links" id="navMain">
+          <a href="#interactive-elements">Interactive Elements</a>
+        </div>
 
         <h4>CSS selector:</h4>
         <p>nav li, nav li, nav li a</p>
@@ -68,20 +63,25 @@
 
       <section class="element">
         <h4>Text Input Field with Label</h4>
-        <p> Find an Adventure &nbsp; <input class="input_text" type="text"></p>
+        <p> If you're interested in getting in contact: &nbsp; <input class="input-text" type="text"></p>
 
         <h4>CSS selector:</h4>
-        <p>.input_text</p>
+        <p>.input-text</p>
 
         <h4>Sample code:</h4>
-        <code>&lt;input class="input_text" type="text" placeholder="Placeholder"&gt;</code>
+        <code>&lt;input class="input-text" type="text" placeholder="Placeholder"&gt;</code>
       </section>
 
       <section class="element">
         <h4>Image as a Link</h4>
-        <a href="https://www.thejourneytourism.com/"><img class="hover_img" src="img/montfort.jpg" alt="People Canoeing on the Ocean"></a>
-        <!-- Uses a fun experience photo as a link to the earlier tourism consulting website.
-        -->
+
+          <a href="#"class="hvrbox">
+          	<img src="img/Gyre.jpg" alt="3D rendering of Gyre" class="hvrbox-layer_bottom">
+          	<div class="hvrbox-layer_top hvrbox-layer_slideright">
+          		<div class="hvrbox-text">GYRE</div>
+          	</div>
+          </a>
+
         <h4>CSS selector:</h4>
         <p>.hover_img</p>
 
@@ -93,7 +93,7 @@
 
     </section>
 
-    <section id="text_elements">
+    <section id="text-elements">
       <h3>Text Elements</h3>
 
       <section class="element">
@@ -108,12 +108,12 @@
       </section>
 
       <section class="element">
-        <h4>Numbered Lists</h4>
-          <ol>
-            <li>Great Accomodation Options</li>
-            <li>Multiple cultural Attractions</li>
-            <li>Excellent Public Transportation System</li>
-          </ol>
+        <h4>Unordered Lists</h4>
+          <ul>
+            <li>Planned how each piece would fit together in order of hierarchy</li>
+            <li>Developed unique systems that would imitate the functions of the flashlight</li>
+            <li>Realistic Button, bendable light fixture, and rotating lens</li>
+          </ul>
       </section>
 
     </section>
@@ -138,20 +138,18 @@
 
     </section>
 
-    <section id="combined_elements">
+    <section id="combined-elements">
       <h3>Combined Elements</h3>
 
       <section class="element">
 
         <h4>Main Navigation</h4>
-        <nav>
-          <ul>
-            <li><a href="#interactive_elements">Home</a></li>
-            <li><a href=".checkout">Services</a></li>
-            <li><a href="#citations">About</a></li>
-            <li><a href="#combined_elements">Contact</a></li>
-          </ul>
-
+        <nav class="nav-main">
+          <a href="styleguide.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+          <div class="nav-links">
+            <a href="#interactive-elements">Work</a>
+            <a href="#text-elements">About</a>
+          </div>
         </nav>
       </section>
 
@@ -159,6 +157,7 @@
       <h4>Citations</h4>
 
       <ul>
+        <li>http://css-workshop.com/hover-box-text-over-images-on-hover-and-more/</li>
         <li>Ulanovsky, Julieta. Designer. 2014. <strong>Montserrat [Font]</strong>. Retrieved from <a href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap">https://fonts.googleapis.com/css?family=Montserrat:600&display=swap</a></li>
         <li>Robertson, Christian. Designer. 2011. <strong>Roboto [Font]</strong>. Retrieved from <a href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap">https://fonts.googleapis.com/css?family=Montserrat:600&display=swap</a></li>
         <li>St. Paul's Cathedral. nd. <strong>St. Paul's Cathedral [Image]</strong>. Retrieved from <a href="https://www.telegraph.co.uk/goodlife/living/the-best-places-in-the-world-to-retire-in-2016/malta/">https://www.telegraph.co.uk/goodlife/living/the-best-places-in-the-world-to-retire-in-2016/malta/</a></li>

@@ -46,6 +46,19 @@ a:focus {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:  #c0263a;
+  font-weight: bold;
+  display: inline-block;
+  /* width: 1em; */
+  margin: 0.5rem 0.5rem;
+}
+
 /*---------End of Main Styling--------*/
 
 .logo {
@@ -57,11 +70,12 @@ a:focus {
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background-color: white;
   padding: 1rem;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .nav-main .menu {
@@ -78,21 +92,51 @@ a:focus {
 }
 
 .nav-links a {
+  /* align-items: center; */
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.5rem;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   text-decoration: none;
   color: #c0263a;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .nav-links a:hover {
-  margin-top: 20px;
-  background-color: #57C9FB;
-
+  color: white;
+  padding: 10px;
+  background-color: #c0263a;
 }
 
+.input-text {
+  font-family: 'Nunito Sans', sans-serif;
+  border: 2px solid #c0263a;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+/*--------Interactive Elements---------*/
+img {
+  width: 40%;
+}
+
+.img-text {
+  text-align: center;
+  font-size: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%
+}
+
+/*---------End of Interactive Elements-------------*/
 
 code {
   background-color: #EEE;
