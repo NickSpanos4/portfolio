@@ -1,1 +1,25 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288"><defs><style>.cls-1{font-size:73.84px;font-family:Oswald-Heavy, Oswald;font-weight:800;letter-spacing:0.01em;}.cls-2,.cls-3,.cls-4{fill:#c0263a;}.cls-3{letter-spacing:-0.04em;}.cls-4{letter-spacing:0.01em;}.cls-5,.cls-6,.cls-7{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.75px;}.cls-6{stroke-dasharray:4.97 4.97;}.cls-7{stroke-dasharray:6.95 6.95;}</style></defs><title>Artboard 1</title><text class="cls-1" transform="translate(65.48 162.7)">NICK <tspan class="cls-2" x="173.9" y="0">S</tspan><tspan class="cls-3" x="213.32" y="0">P</tspan><tspan class="cls-4" x="254.77" y="0">ANOS</tspan></text><line class="cls-5" x1="69.65" y1="167.96" x2="72.15" y2="167.96"/><line class="cls-6" x1="77.12" y1="167.96" x2="481.83" y2="167.96"/><line class="cls-5" x1="484.32" y1="167.96" x2="486.82" y2="167.96"/><line class="cls-5" x1="69.65" y1="171.27" x2="73.15" y2="171.27"/><line class="cls-7" x1="80.1" y1="171.27" x2="479.84" y2="171.27"/><line class="cls-5" x1="483.32" y1="171.27" x2="486.82" y2="171.27"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 150" style="enable-background:new 0 0 600 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Oswald-Heavy';}
+	.st1{font-size:104.3572px;}
+	.st2{fill:#C0263A;}
+	.st3{letter-spacing:-4;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:4.97,4.97;}
+	.st6{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;stroke-dasharray:6.95,6.95;}
+</style>
+<title>Artboard 1</title>
+<text transform="matrix(1 0 0 1 0 103.4199)" class="st0 st1">NICK </text>
+<text transform="matrix(1 0 0 1 245.7705 103.4199)" class="st2 st0 st1">S</text>
+<text transform="matrix(1 0 0 1 301.4824 103.4199)" class="st2 st0 st1 st3">P</text>
+<text transform="matrix(1 0 0 1 360.0625 103.4199)" class="st2 st0 st1">ANOS</text>
+<line class="st4" x1="5.9" y1="110.9" x2="9.4" y2="110.9"/>
+<line class="st5" x1="16.4" y1="110.9" x2="588.4" y2="110.9"/>
+<line class="st4" x1="501.5" y1="101.6" x2="504.1" y2="101.6"/>
+<line class="st4" x1="5.9" y1="115.5" x2="10.8" y2="115.5"/>
+<line class="st6" x1="20.7" y1="115.5" x2="585.6" y2="115.5"/>
+<line class="st4" x1="500.5" y1="105" x2="504.1" y2="105"/>
+</svg>

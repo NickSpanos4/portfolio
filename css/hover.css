@@ -6,11 +6,11 @@
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	width: 50%;
+	/* width: 50%; */
 	height: auto;
 }
 .hvrbox img {
-	width: 50%;
+	/* width: 50%; */
 }
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
@@ -22,7 +22,7 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	background: #c0263a;
 	color: #fff;
@@ -70,6 +70,20 @@
 }
 .hvrbox:hover .hvrbox-layer_slideright,
 .hvrbox.active .hvrbox-layer_slideright {
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.hvrbox .hvrbox-layer_slideleft {
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideleft,
+.hvrbox.active .hvrbox-layer_slideleft {
 	-moz-transform: translateX(0);
 	-webkit-transform: translateX(0);
 	-ms-transform: translateX(0);
