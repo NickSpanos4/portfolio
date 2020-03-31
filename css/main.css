@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
+  font-weight: 700;
   color:  #c0263a;
   font-size: 2rem;
 }
@@ -57,13 +57,18 @@ ul {
   list-style: none;
 }
 
+li {
+  font-family: 'Hind', sans-serif;
+  font-size: 1.1rem;
+}
+
 ul li::before {
   content: "\2022";
   color:  #c0263a;
   font-weight: bold;
   display: inline-block;
   /* width: 1em; */
-  margin: 0.5rem 0.5rem;
+  margin: 0.2rem 0.5rem;
 }
 
 /*---------End of Main Styling--------*/
@@ -129,12 +134,31 @@ ul li::before {
 
 /*---------Template Structure----------*/
 .content-container {
-  margin: auto 10%;
+  height: 100%;
+  margin: 0 10%;
   display: flex;
 }
 
 .content-item {
   flex-direction: row;
+  max-width: 50%;
+}
+
+.content-paragraph {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.reflection {
+  margin: 0 20%;
+}
+
+.reflection h3 {
+  text-align: center;
+}
+
+#final-present {
+  margin-top: 10%;
 }
 
 /*--------Interactive Elements---------*/
@@ -152,6 +176,49 @@ img {
 }
 
 /*---------End of Interactive Elements-------------*/
+/*-----------Fade in Effects------------------------*/
+.fade {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*---------------End of Fade Effects---------------*/
 
 .content p,
 .content h2,
@@ -160,6 +227,13 @@ img {
   max-width: 60%;
   margin-left: 15%;
 }
+
+.title {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 5rem;
+}
+
 
 .sizing {
   display: flex;
@@ -183,7 +257,11 @@ code {
 }
 
 hr {
-  border: 1px solid #609F6A;
+  margin: 5% 5%;
+  /* border: 1px solid #c0263a; */
+  border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #c0263a, rgba(0, 0, 0, 0));
 }
 
 #img-element {
