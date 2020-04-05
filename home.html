@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Hind:300|Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/hover.css">
@@ -9,7 +9,10 @@
   </head>
   <body>
     <nav class="nav-main">
-      <a href="styleguide.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+      <a href="styleguide.html">
+        <!-- <img class="logo" src="img/logo.svg" srcset="img/mobile-logo.svg 100w, img/logo.svg 200w" alt="logo"> -->
+        <div class="logo"></div>
+      </a>
       <div class="nav-links">
         <a href="home.html">Work</a>
         <a href="#text-elements">About</a>
@@ -34,21 +37,39 @@
     </div>
 
     <div class="content-container">
-
         <br>
-        <a href="#"class="hvrbox">
+        <a href="#"class="hvrbox separator">
           <img src="img/313clutter.jpg" alt="Letters from the Front desk shot">
           <div class="hvrbox-layer_top hvrbox-layer_slideright">
             <div class="hvrbox-text">OTHER</div>
           </div>
         </a>
-        <a href="template"class="hvrbox">
+        <a href="template"class="hvrbox separator">
           <img src="img/267phase2.jpg" alt="Build in process for cabinet">
           <div class="hvrbox-layer_top hvrbox-layer_slideleft">
             <div class="hvrbox-text">EXAMPLE</div>
           </div>
         </a>
     </div>
+
+    <footer>
+    <div class="footer-container">
+      <div class="footer-item">
+        <div class="footer-img">
+          <a href="home.html"><img src="img/logo-alternate.svg" alt="logo"></a>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h1><a href="styleguide.html">Style Guide</a></h1>
+      </div>
+      <div class="footer-item">
+        <h1><a href="Citations-Page.html">Citations</a></h1>
+      </div>
+      <div class="footer-item">
+        <h1><a href="https://github.com/NickSpanos4/portfolio">Git Repository</a></h1>
+      </div>
+    </div>
+  </footer>
 
   </body>
 </html>

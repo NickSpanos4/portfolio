@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Hind:300|Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/hover.css">
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
+
+
     <nav class="nav-main">
-      <a href="styleguide.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+      <a href="styleguide.html">
+        <!-- <img class="logo" src="img/logo.svg" srcset="img/mobile-logo.svg 100w, img/logo.svg 200w" alt="logo"> -->
+        <div class="logo"></div>
+      </a>
       <div class="nav-links">
         <a href="home.html">Work</a>
         <a href="#text-elements">About</a>
@@ -46,7 +51,7 @@
       </div>
     </div>
     <hr>
-    <div class="content-container">
+    <div class="content-container reversal">
       <div class="content-item">
         <h3>Sketching & Dimensioning</h3>
         <p>After I had chosen to design the flashlight for an electrician, I took care to keep the prototype within a specific
@@ -88,7 +93,7 @@
       </div>
     </div>
     <hr>
-    <div class="content-container">
+    <div class="content-container reversal">
       <div id="final-present" class="content-item">
         <h3>Final Presentation</h3>
         <p>The last part was a written reflection on the design process and a thorough examination about the constraints of the product.
@@ -111,7 +116,7 @@
     </div>
     <hr>
     <div class="content-contaier">
-      <div class="reflection">
+      <div class="reflection ">
         <h3>Reflection</h3>
         <p>This project help grow and exhibit my understanding of space and dimensions by converting 2D concepts into 3D forms to create a
           functional prototype. When working on this project I was able to use this ability to the utmost, not only reflecting in the design
@@ -126,6 +131,25 @@
         <br><br>
       </div>
       </div>
+
+      <footer>
+      <div class="footer-container">
+        <div class="footer-item">
+          <div class="footer-img">
+            <a href="home.html"><img src="img/logo-alternate.svg" alt="logo"></a>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h1><a href="styleguide.html">Style Guide</a></h1>
+        </div>
+        <div class="footer-item">
+          <h1><a href="Citations-Page.html">Citations</a></h1>
+        </div>
+        <div class="footer-item">
+          <h1><a href="https://github.com/NickSpanos4/portfolio">Git Repository</a></h1>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
