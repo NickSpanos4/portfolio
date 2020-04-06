@@ -400,6 +400,30 @@ hr {
   }
 }
 
+.about-container {
+  margin: 5% 15%;
+}
+
+#about-title {
+  text-align: center;
+}
+
+#contact h3{
+  margin-bottom: 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+  #contact p{
+    text-align: left;
+  }
+}
+
+
 #img-element {
   width: 40%;
 }
