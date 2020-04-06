@@ -90,8 +90,10 @@ ul li::before {
  /*-----------Navigation-------------*/
 
 .nav-main {
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -244,6 +246,10 @@ ul li::before {
 .content-container {
   height: 100%;
   margin: 0 10%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 
@@ -367,6 +373,10 @@ img {
 
 
 .sizing {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   /* margin-left: 10%; */
@@ -417,9 +427,18 @@ hr {
 }
 
 
+.citations-container {
+  margin: 0 25%;
+  margin-bottom: 112px;
+}
+
+
 @media screen and (max-width:768px) {
   #contact p{
     text-align: left;
+  }
+  .citations-container {
+    margin: auto 5%;
   }
 }
 
